@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: blueviolet;
+}
+
+section{
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.navs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+h1{
+    color: white;
+    font-size: 1rem;
+}
+
+.pesquisar{
+    width: 30%;
+    padding: 5px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.rotacao-botao{
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.opcoes-acessibilidade button{
+    margin-bottom: 5px;
+}
+.apresenta-lista{
+    display: none;
+}
+
+.acessibilidade{
+
+}
